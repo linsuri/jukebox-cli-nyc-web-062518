@@ -42,7 +42,7 @@ def run
   help
   puts "Please enter a command:"
   command = gets.chomp
-  while command !== "exit"
+  case command
     if command == "list"
       list(songs)
     elsif command == "play"
