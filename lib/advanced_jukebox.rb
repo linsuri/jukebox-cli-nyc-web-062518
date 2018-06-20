@@ -3,7 +3,7 @@
 #with the correct path to this directory on your computer
 
 my_songs = {
-  "Go Go GO" => '../audio/Emerald-Park/01.mp3',
+  "Go Go GO" => 'jukebox-cli-nyc-web-062518/audio/Emerald-Park/01.mp3',
   "LiberTeens" => 'jukebox-cli-nyc-web-062518/audio/Emerald-Park/02.mp3',
   "Hamburg" =>  'jukebox-cli-nyc-web-062518/audio/Emerald-Park/03.mp3',
   "Guiding Light" => 'jukebox-cli-nyc-web-062518/audio/Emerald-Park/04.mp3',
