@@ -43,15 +43,15 @@ def run
   puts "Please enter a command:"
   command = gets.chomp
   case command
-    if command == "list"
+    when command == "list"
       list(songs)
-    elsif command == "play"
+    when command == "play"
       play(songs)
-    elsif command == "help"
+    when command == "help"
       help
-    end
-  end  
-  if command == "exit"
-    exit_jukebox
+    when command == "exit"
+      exit_jukebox
+      break
+      
   end
 end
