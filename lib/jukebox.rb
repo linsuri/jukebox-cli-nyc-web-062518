@@ -43,3 +43,6 @@ def run
   puts "Please enter a command:"
   command = gets.chomp
   
+    
+  end
+end
