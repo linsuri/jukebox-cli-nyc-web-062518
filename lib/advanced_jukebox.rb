@@ -30,7 +30,7 @@ def list(my_songs)
   my_songs.each do |song, location|
     songs_array << song
   end
-  songs_array.each do |song|
+  songs_array.each_with_index do |song, index|
     puts "#{index+1}. #{song}"
   end  
 end
