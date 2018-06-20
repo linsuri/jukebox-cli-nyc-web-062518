@@ -28,10 +28,8 @@ def play(songs)
   if songs.include?(choice)
     puts "Playing #{choice}"
   elsif (*1..9).include?(choice.to_i) 
-    puts "Playing #{}"
-  songs.each_with_index do |song, index|
-    if choice == song
-      puts "Playing #{song}"
+    puts "Playing #{song[choice.to_i - 1]}"
+  
     else
       puts "Invalid input, please try again"
     end  
