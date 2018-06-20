@@ -25,6 +25,9 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   choice = gets.chomp
+  if songs.include?(choice)
+    puts "Playing #{choice}"
+  elsif (1..9).include?(choice)  
   songs.each_with_index do |song, index|
     if choice == song
       puts "Playing #{song}"
