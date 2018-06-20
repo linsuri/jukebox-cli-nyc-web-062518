@@ -29,6 +29,8 @@ def list(my_songs)
   songs_array = []
   my_songs.each do |song, location|
     songs_array << song
+  end
+  songs_array.each do |song|
     puts "#{index+1}. #{song}"
   end  
 end
