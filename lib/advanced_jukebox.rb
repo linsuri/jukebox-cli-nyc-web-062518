@@ -48,7 +48,7 @@ def play(my_songs)
   choice = gets.chomp
   if my_songs.has_key?(choice)
     puts "Playing #{choice}"
-    system "open " << my_songs[choice]
+    system "open #{my_songs[choice]}"
   else
     puts "Invalid input, please try again"
   end  
